@@ -7,10 +7,10 @@ body {
 
 .first-info {
     background-color: #171717;
-    width: 90vw;
+    width: 94vw;
     position: relative;
     padding: 2vw;
-    right: 2%;
+    right: 0%;
     border-radius: 5vw;
     font-size: 1.8vmax;
 }
@@ -34,8 +34,7 @@ body {
 }
 
 .up-div {
-/*     border: red solid 2px;
-    height: 25vh; */
+    height: 35vh;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -44,7 +43,7 @@ body {
 
 .up-div p {
     position: relative;
-    top: 20%;
+    top: 30%;
 }
 
 .day-title {
@@ -57,10 +56,10 @@ body {
 
 .second-info {
     background-color: #171717;
-    width: 90vw;
+    width: 98vw;
     position: relative;
     /* padding: 2vw; */
-    right: 2%;
+    right: 0%;
     border-radius: 5vw;
     font-size: 1.8vmax;
 }
@@ -153,7 +152,12 @@ body {
 
 .info-div {
     height: 0;
-    animation: info-open .5s forwards;
+    transition: all .4s;
+    /* animation: info-open .5s forwards; */
+}
+
+.info-div:active{
+    height: 12vh;
 }
 
 @keyframes info-open {
@@ -169,4 +173,17 @@ body {
     border-radius: 5vw;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+.search-div {
+    width: 25%;
+    position: relative;
+    right: 72%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1.5vh;
+}
+
+.search-img {
+    height: 2vh;
 }
