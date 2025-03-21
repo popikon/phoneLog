@@ -1,0 +1,172 @@
+body {
+    background-color: #010101;
+    color: white;
+    font-size: 1.5vmax;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-info {
+    background-color: #171717;
+    width: 90vw;
+    position: relative;
+    padding: 2vw;
+    right: 2%;
+    border-radius: 5vw;
+    font-size: 1.8vmax;
+}
+
+.first-info p {
+    width: 90%;
+    position: relative;
+    right: 5%;
+}
+
+.fake-buttons {
+    /* border: red solid 2px; */
+    width: 32%;
+    font-weight: bolder;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    position: relative;
+    right: 67%;
+    bottom: .5vh;
+}
+
+.up-div {
+    border: red solid 2px;
+    height: 25vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 4vmax;
+}
+
+.up-div p {
+    position: relative;
+    top: 20%;
+}
+
+.day-title {
+    color: #7f7f7f;
+    font-weight: bolder;
+    position: relative;
+    right: 8%;
+    font-size: 1.8vmax;
+}
+
+.second-info {
+    background-color: #171717;
+    width: 90vw;
+    position: relative;
+    /* padding: 2vw; */
+    right: 2%;
+    border-radius: 5vw;
+    font-size: 1.8vmax;
+}
+
+.call-title {
+    height: 3.5vh;
+    color: white;
+    padding-right: 2vw;
+    /* padding-top: 0.5vh; */
+}
+
+.phone-icon {
+    height: 2.5vh;
+}
+
+.spec-call {
+    /* height: 5vh; */
+    padding-top: 1.5vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: solid 2px #333333;
+    transition: all .5s;
+}
+
+.spec-call span {
+    padding-bottom: 2vh;
+    position: relative;
+    bottom: 0.5vh;
+    padding-right: 2vw;
+    font-size: 2.2vmax;
+}
+
+.spec-call:hover {
+    animation: clicked 0.5s;
+}
+
+@keyframes clicked {
+    0% {
+        background-color: #171717;
+    }
+    50% {
+        background-color: #36353562;
+    }
+    100% {
+        background-color: #171717;
+    }
+}
+
+.police-call {
+    color: #ff4c2c;
+}
+
+.info-buttons-div {
+    width: 80vw;
+    position: relative;
+    right: 5vw;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.circle-button {
+    height: 4vh;
+}
+
+.info-div {
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: clip; 
+}
+
+.info-div p {
+    position: relative;
+    right: 14%;
+    bottom: 10%;
+}
+
+.info-text2 {
+    position: relative;
+    margin: 0;
+    transform: translateY(-1vh);
+    font-size: 1.6vmax;
+}
+
+.info-text1 {
+    font-weight: bold;
+    font-size: 1.7vmax;
+}
+
+.info-div {
+    height: 0;
+    animation: info-open .5s forwards;
+}
+
+@keyframes info-open {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 11.5svh;
+    }
+}
+
+.first-call {
+    border-radius: 5vw;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
