@@ -77,8 +77,8 @@ body {
 
 .spec-call {
     /* height: 5vh; */
-    padding-top: 1.5vh;
-    padding-bottom: 1vh;
+    padding-top: 2vh;
+    padding-bottom: 1.5vh;
     display: flex;
     flex-wrap: wrap;
     border-bottom: solid 2px #333333;
