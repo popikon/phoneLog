@@ -12,7 +12,7 @@ body {
     padding: 2vw;
     right: 0%;
     border-radius: 5vw;
-    font-size: 1.8vmax;
+    font-size: 1.9vmax;
 }
 
 .first-info p {
@@ -38,7 +38,7 @@ body {
     display: flex;
     align-content: center;
     justify-content: center;
-    font-size: 4vmax;
+    font-size: 4.5vmax;
 }
 
 .up-div p {
@@ -50,8 +50,8 @@ body {
     color: #7f7f7f;
     font-weight: bolder;
     position: relative;
-    right: 8%;
-    font-size: 1.8vmax;
+    right: 2%;
+    font-size: 1.9vmax;
 }
 
 .second-info {
@@ -68,7 +68,6 @@ body {
     height: 3.5vh;
     color: white;
     padding-right: 2vw;
-    /* padding-top: 0.5vh; */
 }
 
 .phone-icon {
@@ -85,7 +84,7 @@ body {
     transition: all .5s;
 }
 
-.spec-call span {
+.name-info {
     padding-bottom: 2vh;
     position: relative;
     bottom: 0.5vh;
@@ -156,10 +155,6 @@ body {
     /* animation: info-open .5s forwards; */
 }
 
-.info-div:active{
-    height: 12vh;
-}
-
 @keyframes info-open {
     0% {
         height: 0;
@@ -186,4 +181,62 @@ body {
 
 .search-img {
     height: 2vh;
+}
+
+.last-call {
+    border: none;
+}
+
+.time-info {
+    color: #7f7f7f;
+    font-size: 1.8vmax;
+    position: relative;
+    top: -12%;
+    right: 100%;
+}
+
+#call1 .time-info {
+    position: relative;
+    right: 240%;
+}
+
+
+#call2 .time-info {
+    position: relative;
+    right: 120%;
+}
+
+#call9 .time-info {
+    position: relative;
+    right: 120%;
+}
+
+#call3 .time-info {
+    position: relative;
+    right: 170%;
+}
+
+#call4 .time-info {
+    position: relative;
+    right: 170%;
+}
+
+#call5 .time-info {
+    position: relative;
+    right: 240%;
+}
+
+#call6 .time-info {
+    position: relative;
+    right: 240%;
+}
+
+#call7 .time-info {
+    position: relative;
+    right: 83%;
+}
+
+#call8 .time-info {
+    position: relative;
+    right: 240%;
 }
