@@ -34,8 +34,8 @@ body {
 }
 
 .up-div {
-    border: red solid 2px;
-    height: 25vh;
+/*     border: red solid 2px;
+    height: 25vh; */
     display: flex;
     align-content: center;
     justify-content: center;
